@@ -6,7 +6,7 @@ var sanitizeHtml = require('sanitize-html');
 // Accept POST requests
 express().use(bodyParser.urlencoded({extended : true}));
 express().post("/dragonhosting/submit", function(request, response) {
-  console.log(request.body); //This prints the JSON document received (if it is a JSON document)
+  console.log(request.body); // This prints the JSON document received (if it is a JSON document)
   var dirtyHtml = request.body;
   var cleanHtml = sanitizeHtml(dirty); // Sanitise HTML the user has inputted
 });
