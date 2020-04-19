@@ -1,0 +1,23 @@
+{
+  "name": "dragonhosting",
+  "version": "1.0.0",
+  "description": "A tool that handles request from the Dragon Hosting service",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dragonprojects/dragonhosting.git"
+  },
+  "keywords": [
+    "hosting",
+    "HTML"
+  ],
+  "author": "Dragon Projects",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/dragonprojects/dragonhosting/issues"
+  },
+  "homepage": "https://github.com/dragonprojects/dragonhosting#readme"
+}
